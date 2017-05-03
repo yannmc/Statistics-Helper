@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Made by Yann Morin Charbonneau - Github : @yannmc
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+<meta charset="UTF8">
+
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="Statistic Helper.css">
+  <script src="Statistic Helper.js"></script>
+</head>
+<body class="body">
+  <p class="title">Statistic Helper</p>
+<hr>
+  <div><input class="input" type="text" id="data" placeholder="Data here" oninput="refresh()"/></div>
+  <div class="rule">How to :</div>
+  <div class="rule">Separate values with a space</div>
+  <div class="rule">Decimal numbers should be written as x.y and NOT as x,y</div>
+<hr>
+  <table class="table">
+    <tr>
+      <td><div class="results" id="sum">Sum = </div></td>
+      <td><div class="results" id="mean">Mean = </div></td>
+    </tr>
+
+    <tr>
+      <td><div class="results" id="max">Maximum = </div></td>
+      <td><div class="results" id="min">Minimum = </div></td>
+    </tr>
+
+    <tr>
+      <td><div class="results" id="range">Range = </div></td>
+      <td><div class="results" id="stdDeviation">Standard Deviation = </div></td>
+    </tr>
+
+    <tr>
+      <td><div class="results" id="variance">Variance = </div></td>
+      <td><div class="results" id="mode">Mode = </div></td>
+    </tr>
+
+    <tr>
+      <td><div class="results" id="median">Médian = Enter more than 1 value</div></td>
+      <td><div class="results" id="quartiles">Quartiles = Enter more than 6 values</div></td>
+    </tr>
+
+  </table>
+  <hr>
+  <div class="footer">Made by Yann Morin Charbonneau - Github @yannmc</div>
+<hr>
+</body>
+</html>

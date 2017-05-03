@@ -1,0 +1,66 @@
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Made by Yann Morin Charbonneau - Github : @yannmc
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+.input{
+  display: block;
+  box-sizing: content-box;
+  border-radius: 16px;
+  width: 70%;
+  padding: 5px;
+  margin: 25px auto 25px auto;
+  border: none;
+  text-align: center;
+  font: normal 25px/normal "Courier New", Courier, monospace;
+  color: rgba(0,0,0,1);
+  text-overflow: clip;
+  background: rgba(199,228,234,1);
+  box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.2) ;
+}
+
+.results{
+  box-sizing: content-box;
+  padding: 5px;
+  width: 70%;
+  margin: 3% auto 3% auto;
+  overflow: hidden;
+  border-radius: 16px;
+  font: normal 25px/1 "Courier New", Courier, monospace;
+  color: rgba(0,0,0,1);
+  text-align: center;
+  text-overflow: ellipsis;
+  background: rgba(154,237,165,1);
+  box-shadow: 3px 3px 6px 1px rgba(0,0,0,0.2) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+}
+
+.table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body{
+  background: rgba(224,224,222,1);
+}
+
+.title{
+  font: normal normal bold 30px/1 "Courier New", Courier, monospace;
+  color: black;
+  text-align: center;
+text-overflow: ellipsis;
+}
+
+.footer{
+  font: normal normal 20px/1 "Courier New", Courier, monospace;
+  color: black;
+  text-align: center;
+text-overflow: ellipsis;
+}
+
+.rule{
+  font: normal normal 15px/1 "Courier New", Courier, monospace;
+  color: black;
+  text-align: center;
+text-overflow: ellipsis;
+}

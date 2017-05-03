@@ -48,19 +48,19 @@ Made by Yann Morin Charbonneau - Github : @yannmc
   font: normal normal bold 30px/1 "Courier New", Courier, monospace;
   color: black;
   text-align: center;
-text-overflow: ellipsis;
+  text-overflow: ellipsis;
 }
 
 .footer{
   font: normal normal 20px/1 "Courier New", Courier, monospace;
   color: black;
   text-align: center;
-text-overflow: ellipsis;
+  text-overflow: ellipsis;
 }
 
 .rule{
   font: normal normal 15px/1 "Courier New", Courier, monospace;
   color: black;
   text-align: center;
-text-overflow: ellipsis;
+  text-overflow: ellipsis;
 }

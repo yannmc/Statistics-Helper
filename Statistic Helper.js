@@ -103,7 +103,7 @@ function getMedian(){
   }
 }
 
-//Function to get the quartiles Q1, Q2, Q3 and Q4
+//Function to get the quartiles Q1, Q2 and Q3
 function getquartiles(){
   var q1 = 0;
   var q2 = 0;
